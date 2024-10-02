@@ -1,4 +1,3 @@
-# model_api.py
 from fastapi import FastAPI
 import pickle
 from pydantic import BaseModel
