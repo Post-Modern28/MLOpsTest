@@ -86,7 +86,7 @@ The task consists of:
    This will open the Streamlit web application where you can enter input data for predictions.
 
 4. **Make a prediction**:
-   - Enter a comma-separated list of values into the input field (e.g., `5.1,3.5,1.4,0.2`).
+   - Enter values into the input fields.
    - Click the "Predict" button.
    - The prediction result will be displayed on the same page.
 
@@ -94,7 +94,7 @@ The task consists of:
 
 - **URL**: `http://localhost:8000/predict`
 - **Method**: `POST`
-- **Input**: JSON object containing a list of numerical values (e.g., `[5.1, 3.5, 1.4, 0.2]`).
+- **Input**: JSON object containing a list of numerical values.
 - **Output**: JSON object with the prediction result.
 
 ### Example
@@ -102,7 +102,7 @@ The task consists of:
 #### Request
 ```json
 {
-  "data": [5.1, 3.5, 1.4, 0.2]
+  "data": [11.1, 0.5, 1.4, 10.2, 71.0, 0.99, 0.34, 0.11, 0.41, 1.3, 0.48, 1.27, 278]
 }
 ```
 
